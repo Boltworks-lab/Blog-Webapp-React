@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Boltworks-lab/Blog-Webapp-React",
+  "homepage": "https://Boltworks-lab.github.io/Blog-Webapp-React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^44.1.0",
