@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-y=ap+uppav+6l^qgpad5!0y%k8!3_#+qp*f$z-*^=g(^o56sg$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['bloggerwebapp-h5ui.onrender.com']
+ALLOWED_HOSTS = ['bloggerwebapp-h5ui.onrender.com', '127.0.0.1']
 
 
 # Application definition
@@ -186,7 +186,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-    "https://bloggerwebapp.netlify.app/"
+    "https://bloggerwebapp.netlify.app"
 ]
 
 
